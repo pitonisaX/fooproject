@@ -26,7 +26,7 @@ from django.contrib import admin
 
 # here we import the router from our views.py
 # the router handles all url mapping for our app
-from api.views import router
+from user.views import router
 
 from django.conf import settings
 from django.conf.urls.static import static
